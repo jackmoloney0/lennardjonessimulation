@@ -4,7 +4,7 @@ Lennard-Jones Intermolecular Potential Simulation
 - The program computes Lennard-Jones potential curves, initializes particles inside a 3D cube, performs random displacement moves, evaluates system energy, and outputs final particle positions.
 - The model reflects the classic 12-6 Lennard-Jones formulation used to describe short-range repulsion and long-range attraction between neutral atoms and molecules.
 
-Overview
+Overview:
 
 - Reads Lennard-Jones parameters (epsilon, sigma) for Argon (ArAr) and Methane (CH4CH4) from lj_param.dat.
 - Computes Lennard-Jones potential curves Eij(r) over the range [2, 10A].
